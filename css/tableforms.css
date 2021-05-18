@@ -1,0 +1,52 @@
+h1{
+    color:white;
+    text-align: center;
+    background-color: teal;
+    border: 2px solid crimson;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table,td{
+   border-collapse: collapse;
+   border-left: 2px solid #5e3636;
+   border-right:2px solid #5e3636;
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+}
+
+tfoot td{
+    text-align: right;
+}
+tfoot{
+    border-bottom: 2px solid #5e3636;;
+}
+
+thead{
+    background-color: #5e3636;
+    
+}
+thead th{
+    color: white;
+    padding: 15px;
+}
+
+
+
+tbody tr:hover{
+    background-color: #cacaca;
+}
+
+tbody tr:nth-child(even){
+    background-color: #cacaca;
+}
+
+caption{
+    border-top: 2px solid black;
+}
